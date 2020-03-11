@@ -1,0 +1,51 @@
+<button type="button" class="btn btn-secondary btn-lg btn-block" data-toggle="modal" data-target="#frosh" >
+  Frosh Year
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="frosh" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable" role="document">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: #3b444b;">
+        <h5 class="modal-title" id="exampleModalScrollableTitle">Frosh Year</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: white;">
+          <span aria-hidden="true">x</span>
+        </button>
+      </div>
+      <div class="modal-body" style="background-color: #3b444b;">
+        {{#each first}}
+            <p>Course: {{course}}</p>
+            <p>Faculty: {{prof}}</p>
+            <br>
+        {{/each}}
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<button type="button" class="btn btn-secondary btn-lg btn-block" data-toggle="modal" data-target="#soph">
+  Sophomore Year
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="soph" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable" role="document">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: #3b444b;">
+        <h5 class="modal-title" id="exampleModalScrollableTitle">Sophomore Year</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: white;">
+          <span aria-hidden="true">x</span>
+        </button>
+      </div>
+      <div class="modal-body" style="background-color: #3b444b;">
+        {{#each second}}
+            <p>Course: {{course}}</p>
+            <p>Faculty: {{prof}}</p>
+            <br>
+        {{/each}}
+      </div>
+      
+    </div>
+  </div>
+</div>
