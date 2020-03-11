@@ -44,7 +44,7 @@ var acads =
               },
               {
                      "org" : "Developers Student Club - Taft",
-                     "pos" : "Externals Relations Officer"
+                     "pos" : "External Relations Officer"
               }
 
        ]
