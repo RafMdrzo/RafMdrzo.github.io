@@ -8,6 +8,7 @@
     display: none;
   }
   
+<<<<<<< HEAD
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 320px) 
@@ -62,6 +63,8 @@ and (min-width : 1824px) {
 /* Styles */
 }
 
+=======
+>>>>>>> parent of 9a4182d... trying to make it mobile-friendly
 
 body{
     background-image: url("/img/bg.jpg"); 
