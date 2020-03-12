@@ -96,23 +96,10 @@ body{
     height: 40vh;
     width: 40vw;
 }
-#me img{
-    position: relative;
-    top: 19vh;
-    left:10vw;
-    border-radius: 100%;
-    border-color: #666666;
 
-}
+
 p{
     color: white;
-}
-.about
-{
-    position: relative;
-    left: 29vw;
-    bottom: 8vh;
-    text-align: left;
 }
 
 .acads{
@@ -136,4 +123,38 @@ p{
     vertical-align: middle;
     position: relative;
     top: 13vh;
+}
+
+#abthbs
+{
+    display: flex;
+    flex-shrink: 2;
+}
+
+.about
+{
+    position: relative;
+    top: 7vh;
+    display: inline-block;
+    text-align: left;
+}
+
+#me img{
+    height: 40vh;
+    border-radius: 100%;
+    border-color: #666666;
+    vertical-align: middle;
+}
+#me
+{
+    vertical-align: middle;
+}
+#mecont
+{
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    position: static;
+    margin-top: 20vh;
+    margin-left: 30vh;
 }
