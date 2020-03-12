@@ -8,7 +8,6 @@
     display: none;
   }
   
-<<<<<<< HEAD
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 320px) 
@@ -63,8 +62,12 @@ and (min-width : 1824px) {
 /* Styles */
 }
 
-=======
->>>>>>> parent of 9a4182d... trying to make it mobile-friendly
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
 
 body{
     background-image: url("/img/bg.jpg"); 
@@ -134,46 +137,3 @@ p{
     position: relative;
     top: 13vh;
 }
-
-#abthbs
-{
-    display: flex;
-    flex-shrink: 2;
-}
-
-.about
-{
-    position: relative;
-    top: 7vh;
-    display: inline-block;
-    text-align: left;
-}
-
-#me img{
-    height: 40vh;
-    border-radius: 100%;
-    border-color: #666666;
-    vertical-align: middle;
-}
-#me
-{
-    vertical-align: middle;
-}
-#mecont
-{
-    display: flex;
-    justify-content: center;
-    vertical-align: middle;
-    position: static;
-
-
-}
-
-.vertical-center {
-    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-    min-height: 100vh; /* These two lines are counted as one :-)       */
-  
-    display: flex;
-    padding-bottom: 15%;
-    align-items: center;
-  }
