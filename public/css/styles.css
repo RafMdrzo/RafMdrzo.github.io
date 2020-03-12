@@ -57,11 +57,19 @@ and (min-width : 1224px) {
 }
 
 
+<<<<<<< HEAD
+=======
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
+>>>>>>> parent of 5714adf... css tweaks
 
 body{
     background-image: url("/img/bg.jpg"); 
     background-size: cover;
-    
 }
 .navbar
 {
@@ -131,23 +139,10 @@ p{
 
 #abthbs
 {
-    flex-shrink: 2;
-    position: static;
-    vertical-align: middle;
-    text-align: center;
-    flex-direction: row;
-    justify-content: space-around;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    
+    flex-shrink: 2;
 }
-#masterdiv
-{
-    padding-left: 50vw;
-    padding-right: 30vw;
-   
-}
+
 .about
 {
     position: relative;
@@ -160,9 +155,7 @@ p{
     height: 40vh;
     border-radius: 100%;
     border-color: #666666;
-    float: inline-start;
-    margin-top: 10vh;
-
+    vertical-align: middle;
 }
 #me
 {
@@ -174,6 +167,7 @@ p{
     justify-content: center;
     vertical-align: middle;
     position: static;
+<<<<<<< HEAD
 
 }
 
@@ -188,3 +182,8 @@ p{
 =======
 }
 >>>>>>> parent of d5546dc... fixed positioning
+=======
+    margin-top: 20vh;
+    margin-left: 30vh;
+}
+>>>>>>> parent of 5714adf... css tweaks
