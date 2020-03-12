@@ -86,10 +86,23 @@ body{
     height: 40vh;
     width: 40vw;
 }
+#me img{
+    position: relative;
+    top: 19vh;
+    left:10vw;
+    border-radius: 100%;
+    border-color: #666666;
 
-
+}
 p{
     color: white;
+}
+.about
+{
+    position: relative;
+    left: 29vw;
+    bottom: 8vh;
+    text-align: left;
 }
 
 .acads{
@@ -113,6 +126,7 @@ p{
     vertical-align: middle;
     position: relative;
     top: 13vh;
+<<<<<<< HEAD
 }
 
 #abthbs
@@ -171,3 +185,6 @@ p{
     padding-bottom: 15%;
     align-items: center;
   }
+=======
+}
+>>>>>>> parent of d5546dc... fixed positioning
