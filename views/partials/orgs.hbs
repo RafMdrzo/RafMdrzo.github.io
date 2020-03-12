@@ -1,0 +1,20 @@
+<table class="table table-dark">
+  <thead>
+    <tr>
+        Extra Curricular Activities
+    </tr>
+    <tr>
+      
+      <th scope="col">Organization</th>
+      <th scope="col">Position</th>
+    </tr>
+  </thead>
+  <tbody>
+      {{#each activities}}
+        <tr>
+        <td>{{org}}</td>
+        <td>{{pos}}</td>
+        </tr>
+    {{/each}}
+  </tbody>
+</table>
