@@ -35,8 +35,8 @@ and (max-device-width : 480px) {
         color: white;
         word-wrap: break-word;
 
-        height: 40vh;
-        width: 40vw;
+        height: 60vh;
+        width: 90vw;
     }
     #me img{
         position: relative;
