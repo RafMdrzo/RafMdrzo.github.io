@@ -13,127 +13,151 @@
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
 /* Styles */
+    body{
+        background-image: url("/img/bg.jpg"); 
+        background-size: cover;
+    }
+    .navbar
+    {
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        background-color: #232b2b;
+        -webkit-box-shadow: 0 8px 6px -6px #999;
+        -moz-box-shadow: 0 8px 6px -6px #999;
+        box-shadow: 0 8px 6px -6px white;
+    }
+
+    #spanner
+    {
+        position: relative;
+        top: 15vh ;
+        color: white;
+        word-wrap: break-word;
+
+        height: 40vh;
+        width: 40vw;
+    }
+    #me img{
+        position: relative;
+        top: 19vh;
+        left:0vw;
+        border-radius: 100%;
+        border-color: #666666;
+        width: 18vw;
+        height: 18vh;
+    }
+    p{
+        color: white;
+    }
+    .about
+    {
+        position: relative;
+        left: 23vw;
+        bottom: 4vh;
+        text-align: left;
+        font-size: 3vh;
+        word-wrap: break-word;
+        width: 70vw;
+    }
+
+    .acads{
+        position: relative;
+        top: 25vh;
+        vertical-align: middle;
+    }
+
+    .acads button{
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+    }
+
+    .modal-content
+    {
+        overflow: hidden;
+    }
+
+    .acts
+    {
+        vertical-align: middle;
+        position: relative;
+        top: 13vh;
+    }
 }
 
-/* Smartphones (landscape) ----------- */
-@media only screen 
-and (min-width : 321px) {
-/* Styles */
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen 
-and (max-width : 320px) {
-/* Styles */
-}
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-/* Styles */
-}
-
-/* iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-/* Styles */
-}
-
-/* iPads (portrait) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-/* Styles */
-}
 
 /* Desktops and laptops ----------- */
 @media only screen 
 and (min-width : 1224px) {
 /* Styles */
-}
-
-/* Large screens ----------- */
-@media only screen 
-and (min-width : 1824px) {
-/* Styles */
-}
-
-/* iPhone 4 ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-/* Styles */
-}
-
-body{
-    background-image: url("/img/bg.jpg"); 
-    background-size: cover;
-}
-.navbar
-{
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    background-color: #232b2b;
-    -webkit-box-shadow: 0 8px 6px -6px #999;
-    -moz-box-shadow: 0 8px 6px -6px #999;
-    box-shadow: 0 8px 6px -6px white;
-}
+    body{
+        background-image: url("/img/bg.jpg"); 
+        background-size: cover;
+    }
+    .navbar
+    {
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        background-color: #232b2b;
+        -webkit-box-shadow: 0 8px 6px -6px #999;
+        -moz-box-shadow: 0 8px 6px -6px #999;
+        box-shadow: 0 8px 6px -6px white;
+    }
 
 
 
 
-#spanner
-{
-    position: relative;
-    top: 15vh ;
-    color: white;
-    word-wrap: break-word;
+    #spanner
+    {
+        position: relative;
+        top: 15vh ;
+        color: white;
+        word-wrap: break-word;
 
-    height: 40vh;
-    width: 40vw;
-}
-#me img{
-    position: relative;
-    top: 19vh;
-    left:10vw;
-    border-radius: 100%;
-    border-color: #666666;
+        height: 40vh;
+        width: 40vw;
+    }
+    #me img{
+        position: relative;
+        top: 19vh;
+        left:10vw;
+        border-radius: 100%;
+        border-color: #666666;
+        width: 200px;
+        height: 200px;
+    }
+    p{
+        color: white;
+    }
+    .about
+    {
+        position: relative;
+        left: 29vw;
+        bottom: 8vh;
+        text-align: left;
+    }
 
-}
-p{
-    color: white;
-}
-.about
-{
-    position: relative;
-    left: 29vw;
-    bottom: 8vh;
-    text-align: left;
+    .acads{
+        position: relative;
+        top: 25vh;
+        vertical-align: middle;
+    }
+
+    .acads button{
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+    }
+
+    .modal-content
+    {
+        overflow: hidden;
+    }
+
+    .acts
+    {
+        vertical-align: middle;
+        position: relative;
+        top: 13vh;
+    }
 }
 
-.acads{
-    position: relative;
-    top: 25vh;
-    vertical-align: middle;
-}
 
-.acads button{
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-}
-
-.modal-content
-{
-    overflow: hidden;
-}
-
-.acts
-{
-    vertical-align: middle;
-    position: relative;
-    top: 13vh;
-}
