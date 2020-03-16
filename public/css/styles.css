@@ -44,8 +44,9 @@ and (max-device-width : 480px) {
         left:0vw;
         border-radius: 100%;
         border-color: #666666;
-        width: 18vw;
+        max-width: 18vw;
         height: 18vh;
+        float: left;
     }
     p{
         color: white;
@@ -87,8 +88,7 @@ and (max-device-width : 480px) {
 
 
 /* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 1224px) {
+
 /* Styles */
     body{
         background-image: url("/img/bg.jpg"); 
@@ -114,8 +114,8 @@ and (min-width : 1224px) {
         color: white;
         word-wrap: break-word;
 
-        height: 40vh;
-        width: 40vw;
+        max-height: 40vh;
+        max-width: 40vw;
     }
     #me img{
         position: relative;
@@ -123,8 +123,8 @@ and (min-width : 1224px) {
         left:10vw;
         border-radius: 100%;
         border-color: #666666;
-        width: 200px;
-        height: 200px;
+        max-width: 12vw;
+        max-height: 12vw;
     }
     p{
         color: white;
@@ -135,6 +135,7 @@ and (min-width : 1224px) {
         left: 29vw;
         bottom: 8vh;
         text-align: left;
+        max-width: 40vw;
     }
 
     .acads{
@@ -159,6 +160,5 @@ and (min-width : 1224px) {
         position: relative;
         top: 13vh;
     }
-}
 
 
